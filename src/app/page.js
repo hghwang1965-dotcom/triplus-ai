@@ -1,6 +1,7 @@
 import AffiliateBanner from "@/components/AffiliateBanner";
 import RecommendBox from "@/components/RecommendBox";
 import PostCard from "@/components/PostCard";
+import AIRecommendBox from "@/components/AIRecommendBox";
 
 
 export default function HomePage() {
@@ -28,17 +29,7 @@ export default function HomePage() {
           항공권 · 호텔 · 투어 · 여행 콘텐츠를 AI로 탐색하세요
         </p>
 
-        <div className="mb-8 flex w-full max-w-xl items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2 backdrop-blur shadow-2xl shadow-blue-500/10">
-          <span className="pl-3 text-slate-400">🔍</span>
-          <input
-            type="text"
-            placeholder="예: 도쿄 자유여행 3박4일 맛집 중심"
-            className="flex-1 bg-transparent px-2 py-3 text-sm text-white placeholder:text-slate-500 outline-none"
-          />
-          <button className="rounded-xl bg-blue-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-400 hover:shadow-lg hover:shadow-blue-500/30">
-            추천
-          </button>
-        </div>
+        <AIRecommendBox />
 
         <div className="flex gap-4">
           <button className="rounded-xl bg-blue-500 px-6 py-3 font-semibold transition hover:bg-blue-400">

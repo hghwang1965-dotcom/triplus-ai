@@ -1,4 +1,16 @@
 const travelData = {
+  seoul: {
+    country: "KOREA",
+    title: "서울 여행 가이드",
+    description: "한류, 미식, 쇼핑, 야경까지 즐길 수 있는 서울 자유여행 추천 콘텐츠입니다.",
+    image: "/images/seoul.jpg",
+    points: [
+      { label: "추천 지역", content: "명동, 홍대, 강남, 북촌한옥마을" },
+      { label: "추천 맛집", content: "삼겹살, 떡볶이, 치킨, 한강 야식" },
+      { label: "추천 숙소", content: "명동 비즈니스호텔, 강남 서비스드 레지던스, 1박 12만원대" },
+      { label: "추천 일정", content: "1일차 명동·광화문 / 2일차 홍대·연남동 / 3일차 강남·한강" },
+    ],
+  },
   tokyo: {
     country: "JAPAN",
     title: "도쿄 여행 가이드",
