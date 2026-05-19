@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Amplus AI",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
