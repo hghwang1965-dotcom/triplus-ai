@@ -2,7 +2,7 @@ import PostCard from "@/components/PostCard";
 import { getPosts } from "@/lib/wordpress";
 
 export const metadata = {
-  title: "AI & Tech | Amplus AI",
+  title: "AI & Tech | AI Insight Korea",
   description: "Vision AI, LLM, Smart Factory, YOLO 등 실제 프로젝트에서 얻은 AI·기술 개발 경험을 공유합니다.",
 };
 

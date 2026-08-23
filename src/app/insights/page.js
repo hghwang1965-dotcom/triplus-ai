@@ -2,7 +2,7 @@ import PostCard from "@/components/PostCard";
 import { getPosts } from "@/lib/wordpress";
 
 export const metadata = {
-  title: "Insights | Amplus AI",
+  title: "Insights | AI Insight Korea",
   description: "AI 산업 동향, 에너지 시장, 글로벌 경제, 현장 리포트 등 분석과 해설 중심의 인사이트 콘텐츠.",
 };
 

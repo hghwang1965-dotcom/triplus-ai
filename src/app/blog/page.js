@@ -2,7 +2,7 @@ import { getPosts } from "@/lib/wordpress";
 import BlogSearchClient from "@/components/BlogSearchClient";
 
 export const metadata = {
-  title: "Blog | Amplus AI",
+  title: "Blog | AI Insight Korea",
   description: "AI 여행, 스마트 여행, 추천 여행 콘텐츠",
 };
 

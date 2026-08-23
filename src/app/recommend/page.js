@@ -1,7 +1,7 @@
 import RecommendClient from "@/components/RecommendClient";
 
 export const metadata = {
-  title: "AI Recommend | Amplus AI",
+  title: "AI Recommend | AI Insight Korea",
   description: "AI에게 원하는 여행 스타일을 입력하고 맞춤 여행 추천을 받아보세요.",
 };
 

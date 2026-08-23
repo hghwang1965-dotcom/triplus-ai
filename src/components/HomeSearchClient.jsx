@@ -92,7 +92,7 @@ export default function HomeSearchClient({ posts }) {
         </p>
 
         <h1 className="mb-4 bg-gradient-to-r from-white to-blue-300 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
-          ✈️ Amplus AI
+          ✈️ AI Insight Korea
         </h1>
 
         <p className="mb-10 max-w-2xl text-lg text-slate-300 md:text-xl">

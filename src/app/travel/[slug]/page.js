@@ -5,7 +5,7 @@ export async function generateMetadata({ params }) {
   const data = travelData[slug];
 
   return {
-    title: data ? `${data.title} | Amplus AI` : "Travel | Amplus AI",
+    title: data ? `${data.title} | AI Insight Korea` : "Travel | AI Insight Korea",
     description: data?.description || "AI 기반 여행 추천 콘텐츠입니다.",
   };
 }

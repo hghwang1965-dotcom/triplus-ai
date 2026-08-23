@@ -3,7 +3,7 @@ import PostCard from "@/components/PostCard";
 import { getPosts } from "@/lib/wordpress";
 
 export const metadata = {
-  title: "Travel | Amplus AI",
+  title: "Travel | AI Insight Korea",
   description: "AI가 추천하는 여행지, 항공권, 호텔, 투어 정보를 확인하세요.",
 };
 

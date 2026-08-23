@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const sections = [
   {
-    title: "🌍 Travel",
-    links: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집"],
-    href: "/travel",
+    title: "📰 Insights",
+    links: ["AI 산업 동향", "에너지 시장", "글로벌 경제", "칼럼", "인터뷰", "현장 리포트"],
+    href: "/insights",
   },
   {
     title: "💼 Global Business",
@@ -17,9 +17,9 @@ const sections = [
     href: "/ai",
   },
   {
-    title: "📰 Insights",
-    links: ["AI 산업 동향", "에너지 시장", "글로벌 경제", "칼럼", "인터뷰", "현장 리포트"],
-    href: "/insights",
+    title: "🌍 Travel",
+    links: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집"],
+    href: "/travel",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-1">
-            <h2 className="mb-4 text-xl font-bold text-blue-400">Amplus AI</h2>
+            <h2 className="mb-4 text-xl font-bold text-blue-400">AI Insight Korea</h2>
             <p className="text-sm leading-7 text-slate-400">
               경험에서 나온 인사이트,
               <br />
@@ -71,7 +71,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-sm text-slate-500 sm:flex-row">
-          <p>© 2026 Amplus AI. All rights reserved.</p>
+          <p>© 2026 AI Insight Korea. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/about" className="hover:text-slate-300">About</Link>
             <span className="hover:text-slate-300 cursor-default">개인정보처리방침</span>

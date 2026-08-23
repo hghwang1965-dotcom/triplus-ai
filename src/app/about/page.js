@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About | Amplus AI",
-  description: "경험에서 나온 인사이트, 기술로 만드는 미래. Amplus AI는 여행·글로벌 비즈니스·AI 기술·산업 인사이트를 다루는 콘텐츠 플랫폼입니다.",
+  title: "About | AI Insight Korea",
+  description: "경험에서 나온 인사이트, 기술로 만드는 미래. AI Insight Korea는 산업 인사이트·글로벌 비즈니스·AI 기술·여행을 다루는 콘텐츠 플랫폼입니다.",
 };
 
 const categories = [
   {
-    icon: "🌍",
-    tag: "TRAVEL",
-    title: "Travel",
-    href: "/travel",
-    color: "border-blue-400/30 hover:border-blue-400/60",
-    accent: "text-blue-400",
-    desc: "도쿄, 바르셀로나, 베네치아, 하롱베이, 세부…  직접 다녀온 여행지를 중심으로 항공권·호텔·투어·맛집까지 실전 여행 콘텐츠를 제공합니다.",
-    subs: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집"],
+    icon: "📰",
+    tag: "INSIGHTS",
+    title: "Insights",
+    href: "/insights",
+    color: "border-orange-400/30 hover:border-orange-400/60",
+    accent: "text-orange-400",
+    desc: "AI 산업 동향, 에너지 시장, 글로벌 경제, 정부과제 분석까지 뉴스를 그대로 옮기는 게 아닌 현장 관점에서 해석하는 인사이트 공간입니다.",
+    subs: ["AI 산업 동향", "에너지 시장", "글로벌 경제", "칼럼", "인터뷰"],
   },
   {
     icon: "💼",
@@ -37,14 +37,14 @@ const categories = [
     subs: ["AI", "Vision AI", "LLM", "YOLO", "IoT", "개발일지"],
   },
   {
-    icon: "📰",
-    tag: "INSIGHTS",
-    title: "Insights",
-    href: "/insights",
-    color: "border-orange-400/30 hover:border-orange-400/60",
-    accent: "text-orange-400",
-    desc: "AI 산업 동향, 에너지 시장, 글로벌 경제, 정부과제 분석까지 뉴스를 그대로 옮기는 게 아닌 현장 관점에서 해석하는 인사이트 공간입니다.",
-    subs: ["AI 산업 동향", "에너지 시장", "글로벌 경제", "칼럼", "인터뷰"],
+    icon: "🌍",
+    tag: "TRAVEL",
+    title: "Travel",
+    href: "/travel",
+    color: "border-blue-400/30 hover:border-blue-400/60",
+    accent: "text-blue-400",
+    desc: "도쿄, 바르셀로나, 베네치아, 하롱베이, 세부…  직접 다녀온 여행지를 중심으로 항공권·호텔·투어·맛집까지 실전 여행 콘텐츠를 제공합니다.",
+    subs: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집"],
   },
 ];
 
@@ -54,7 +54,7 @@ export default function AboutPage() {
 
       {/* ── Hero ── */}
       <section className="mx-auto max-w-5xl">
-        <p className="mb-4 text-sm tracking-[0.3em] text-blue-400">ABOUT AMPLUS AI</p>
+        <p className="mb-4 text-sm tracking-[0.3em] text-blue-400">ABOUT AI INSIGHT KOREA</p>
         <h1 className="mb-8 text-5xl font-bold leading-tight md:text-6xl">
           경험에서 나온 인사이트,<br />
           <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-emerald-400 bg-clip-text text-transparent">
@@ -62,7 +62,7 @@ export default function AboutPage() {
           </span>
         </h1>
         <p className="max-w-3xl text-xl leading-9 text-slate-300">
-          Amplus AI는 여행·글로벌 비즈니스·AI 기술·산업 인사이트를 한 곳에서 다루는 전문 콘텐츠 플랫폼입니다.
+          AI Insight Korea는 산업 인사이트·글로벌 비즈니스·AI 기술·여행을 한 곳에서 다루는 전문 콘텐츠 플랫폼입니다.
           교과서가 아닌 현장에서 얻은 경험을 바탕으로, 실질적이고 신뢰할 수 있는 콘텐츠를 제공합니다.
         </p>
       </section>
@@ -71,7 +71,7 @@ export default function AboutPage() {
       <section className="mx-auto mt-24 max-w-5xl">
         <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-blue-500/10 to-violet-500/10 p-10 backdrop-blur">
           <p className="mb-4 text-sm tracking-[0.3em] text-blue-400">OUR MISSION</p>
-          <h2 className="mb-6 text-3xl font-bold">왜 Amplus AI인가?</h2>
+          <h2 className="mb-6 text-3xl font-bold">왜 AI Insight Korea인가?</h2>
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {

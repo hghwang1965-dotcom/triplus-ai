@@ -3,21 +3,21 @@ import { getPosts } from "@/lib/wordpress";
 import PostCard from "@/components/PostCard";
 
 export const metadata = {
-  title: "Amplus AI — 여행 · 비즈니스 · AI 기술 · 인사이트",
-  description: "경험에서 나온 인사이트, 기술로 만드는 미래. 여행, 글로벌 비즈니스, AI 기술, 산업 인사이트를 제공합니다.",
+  title: "AI Insight Korea — 인사이트 · 비즈니스 · AI 기술 · 여행",
+  description: "경험에서 나온 인사이트, 기술로 만드는 미래. 산업 인사이트, 글로벌 비즈니스, AI 기술, 여행 콘텐츠를 제공합니다.",
 };
 
 const categories = [
   {
-    icon: "🌍",
-    tag: "TRAVEL",
-    title: "Travel",
-    desc: "전 세계 여행지 가이드, 항공권·호텔·투어 정보, 여행 꿀팁까지 직접 경험한 여행 콘텐츠를 제공합니다.",
-    href: "/travel",
-    cta: "여행 콘텐츠 보기",
-    subs: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집", "여행꿀팁"],
-    color: "from-blue-500/20 to-cyan-500/10",
-    border: "hover:border-blue-400/50",
+    icon: "📰",
+    tag: "INSIGHTS",
+    title: "Insights",
+    desc: "AI 산업 동향, 에너지 시장, 글로벌 경제, 현장 리포트 등 분석과 해설 중심의 인사이트 콘텐츠.",
+    href: "/insights",
+    cta: "인사이트 보기",
+    subs: ["AI 산업 동향", "에너지 시장", "농업 트렌드", "글로벌 경제", "칼럼", "인터뷰"],
+    color: "from-orange-500/20 to-amber-500/10",
+    border: "hover:border-orange-400/50",
   },
   {
     icon: "💼",
@@ -42,15 +42,15 @@ const categories = [
     border: "hover:border-violet-400/50",
   },
   {
-    icon: "📰",
-    tag: "INSIGHTS",
-    title: "Insights",
-    desc: "AI 산업 동향, 에너지 시장, 글로벌 경제, 현장 리포트 등 분석과 해설 중심의 인사이트 콘텐츠.",
-    href: "/insights",
-    cta: "인사이트 보기",
-    subs: ["AI 산업 동향", "에너지 시장", "농업 트렌드", "글로벌 경제", "칼럼", "인터뷰"],
-    color: "from-orange-500/20 to-amber-500/10",
-    border: "hover:border-orange-400/50",
+    icon: "🌍",
+    tag: "TRAVEL",
+    title: "Travel",
+    desc: "전 세계 여행지 가이드, 항공권·호텔·투어 정보, 여행 꿀팁까지 직접 경험한 여행 콘텐츠를 제공합니다.",
+    href: "/travel",
+    cta: "여행 콘텐츠 보기",
+    subs: ["해외여행", "국내여행", "여행일정", "항공권", "호텔", "맛집", "여행꿀팁"],
+    color: "from-blue-500/20 to-cyan-500/10",
+    border: "hover:border-blue-400/50",
   },
 ];
 
@@ -81,7 +81,7 @@ export default async function HomePage() {
         </p>
 
         <h1 className="mb-6 bg-gradient-to-r from-white via-blue-100 to-blue-300 bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
-          Amplus AI
+          AI Insight Korea
         </h1>
 
         <p className="mb-4 text-2xl font-semibold text-slate-200 md:text-3xl">
@@ -92,7 +92,7 @@ export default async function HomePage() {
         </p>
 
         <p className="mb-12 max-w-2xl text-slate-400">
-          여행 · 글로벌 비즈니스 · AI 기술 · 산업 인사이트
+          산업 인사이트 · 글로벌 비즈니스 · AI 기술 · 여행
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">

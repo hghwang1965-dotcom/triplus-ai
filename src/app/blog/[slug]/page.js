@@ -45,11 +45,11 @@ export async function generateMetadata({ params }) {
 
   return {
     title: post
-      ? `${post.title.rendered} | Amplus AI`
-      : "Blog | Amplus AI",
+      ? `${post.title.rendered} | AI Insight Korea`
+      : "Blog | AI Insight Korea",
     description:
       post?.excerpt?.rendered?.replace(/<[^>]+>/g, "").slice(0, 150) ||
-      "Amplus AI 여행 콘텐츠입니다.",
+      "AI Insight Korea 여행 콘텐츠입니다.",
   };
 }
 

@@ -2,7 +2,7 @@ import PostCard from "@/components/PostCard";
 import { getPosts } from "@/lib/wordpress";
 
 export const metadata = {
-  title: "Global Business | Amplus AI",
+  title: "Global Business | AI Insight Korea",
   description: "필리핀 ODA, 스마트팜, 재생에너지, 해외진출 전략 등 현장 경험 기반의 글로벌 비즈니스 인사이트.",
 };
 

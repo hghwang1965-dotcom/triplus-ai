@@ -17,18 +17,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Amplus AI",
-  description: "AI 기반 스마트 여행 플랫폼",
+  title: "AI Insight Korea",
+  description: "경험에서 나온 인사이트, 기술로 만드는 미래 — 산업 인사이트·글로벌 비즈니스·AI 기술·여행 플랫폼",
 
   verification: {
     google: "Co1x-SZH_ysJV5O2TWFvyA-rZ4xdZG0PWWalQdgwF50",
   },
 
   openGraph: {
-    title: "Amplus AI",
-    description: "AI 기반 스마트 여행 플랫폼",
+    title: "AI Insight Korea",
+    description: "경험에서 나온 인사이트, 기술로 만드는 미래 — 산업 인사이트·글로벌 비즈니스·AI 기술·여행 플랫폼",
     url: "https://amplusai.com",
-    siteName: "Amplus AI",
+    siteName: "AI Insight Korea",
     images: [
       {
         url: "/og-image.jpg",

@@ -7,17 +7,17 @@ import { useState } from "react";
 const navItems = [
   { href: "/", label: "Home" },
   {
-    href: "/travel",
-    label: "Travel",
+    href: "/insights",
+    label: "Insights",
     sub: [
-      { href: "/travel", label: "전체 여행지" },
-      { href: "/travel?cat=해외여행", label: "해외여행" },
-      { href: "/travel?cat=국내여행", label: "국내여행" },
-      { href: "/travel?cat=여행일정", label: "여행일정" },
-      { href: "https://www.trip.com/t/ZRluRkHXOV2", label: "항공권", external: true },
-      { href: "https://www.trip.com/t/ZRluRkHXOV2", label: "호텔", external: true },
-      { href: "/travel?cat=맛집", label: "맛집" },
-      { href: "/travel?cat=여행꿀팁", label: "여행꿀팁" },
+      { href: "/insights", label: "전체 보기" },
+      { href: "/insights?cat=AI산업동향", label: "AI 산업 동향" },
+      { href: "/insights?cat=에너지시장", label: "에너지 시장" },
+      { href: "/insights?cat=농업트렌드", label: "농업 트렌드" },
+      { href: "/insights?cat=글로벌경제", label: "글로벌 경제" },
+      { href: "/insights?cat=정부과제", label: "정부과제" },
+      { href: "/insights?cat=칼럼", label: "칼럼" },
+      { href: "/insights?cat=인터뷰", label: "인터뷰" },
     ],
   },
   {
@@ -52,17 +52,17 @@ const navItems = [
     ],
   },
   {
-    href: "/insights",
-    label: "Insights",
+    href: "/travel",
+    label: "Travel",
     sub: [
-      { href: "/insights", label: "전체 보기" },
-      { href: "/insights?cat=AI산업동향", label: "AI 산업 동향" },
-      { href: "/insights?cat=에너지시장", label: "에너지 시장" },
-      { href: "/insights?cat=농업트렌드", label: "농업 트렌드" },
-      { href: "/insights?cat=글로벌경제", label: "글로벌 경제" },
-      { href: "/insights?cat=정부과제", label: "정부과제" },
-      { href: "/insights?cat=칼럼", label: "칼럼" },
-      { href: "/insights?cat=인터뷰", label: "인터뷰" },
+      { href: "/travel", label: "전체 여행지" },
+      { href: "/travel?cat=해외여행", label: "해외여행" },
+      { href: "/travel?cat=국내여행", label: "국내여행" },
+      { href: "/travel?cat=여행일정", label: "여행일정" },
+      { href: "https://www.trip.com/t/ZRluRkHXOV2", label: "항공권", external: true },
+      { href: "https://www.trip.com/t/ZRluRkHXOV2", label: "호텔", external: true },
+      { href: "/travel?cat=맛집", label: "맛집" },
+      { href: "/travel?cat=여행꿀팁", label: "여행꿀팁" },
     ],
   },
   { href: "/about", label: "About" },
@@ -82,7 +82,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="text-lg font-bold text-blue-400">
-          Amplus AI
+          AI Insight Korea
         </Link>
 
         {/* Desktop Nav */}
